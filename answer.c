@@ -1,6 +1,5 @@
 n,s;
 main(i){
-for(scanf("%d",&n);n--;i+=4/(i%3))
-s+=i;
-printf("%d\n",s);
+scanf("%d",&n);
+printf("%d\n",3*n*n/2);
 }
